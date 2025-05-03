@@ -1,7 +1,7 @@
 # JobSphere | Modern Job Portal Platform
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/username/JobSphere/main/public/images/jobsphere-logo.png" alt="JobSphere Logo" width="200"/>
+  <img src="https://i.imgur.com/A1wPRdN.png" alt="JobSphere Logo" width="200"/>
 </p>
 
 <p align="center">
@@ -42,13 +42,13 @@
 ## Screenshots
 
 <div align="center">
-  <img src="[https://raw.githubusercontent.com/username/JobSphere/main/screenshots/home-page.png](https://drive.google.com/file/d/14YYvuI_WppsCCArhWjpuhvsz41wIhW5s/view?usp=sharing)" alt="Home Page" width="45%"/>
+  <img src="https://i.imgur.com/abKy3dR.png" alt="Home Page" width="45%"/>
   &nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/username/JobSphere/main/screenshots/job-listings.png" alt="Job Listings" width="45%"/>
+  <img src="https://i.imgur.com/eTvL3QR.png" alt="Job Listings" width="45%"/>
   <br/><br/>
-  <img src="https://raw.githubusercontent.com/username/JobSphere/main/screenshots/job-details.png" alt="Job Details" width="45%"/>
+  <img src="https://drive.google.com/uc?export=view&id=14YYvuI_WppsCCArhWjpuhvsz41wIhW5s" alt="Job Details" width="45%"/>
   &nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/username/JobSphere/main/screenshots/application-form.png" alt="Application Form" width="45%"/>
+  <img src="https://i.imgur.com/KM28zz9.png" alt="Application Form" width="45%"/>
 </div>
 
 ## Installation
