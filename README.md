@@ -40,7 +40,17 @@
 
 ## Demo
 
+### Live Demo
 Check out the live demo: [JobSphere Demo](https://your-jobsphere-demo-url.com)
+
+### Video Walkthrough
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=your-video-id" target="_blank">
+    <img src="https://img.youtube.com/vi/your-video-id/maxresdefault.jpg" alt="JobSphere Video Demo" width="600"/>
+  </a>
+</p>
+
+Watch a complete [video demonstration](https://www.youtube.com/watch?v=your-video-id) of JobSphere in action, showing key features and user journeys.
 
 ## Screenshots
 
