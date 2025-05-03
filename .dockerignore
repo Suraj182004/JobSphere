@@ -1,0 +1,13 @@
+/node_modules
+/vendor
+.env
+.git
+.github
+.idea
+.vscode
+bootstrap/cache/*
+storage/framework/cache/*
+storage/framework/sessions/*
+storage/framework/views/*
+storage/logs/*
+*.log 
