@@ -6,7 +6,6 @@
 
 <p align="center">
   <a href="#features">Features</a> •
-  <a href="#demo">Live Demo</a> •
   <a href="#screenshots">Screenshots</a> •
   <a href="#installation">Installation</a> •
   <a href="#deployment">Deployment</a> •
@@ -38,24 +37,12 @@
 - 📱 **Responsive Design:** Optimal experience across all devices
 - 🔄 **CRUD Operations:** Full functionality for managing jobs and applications
 
-## Demo
 
-### Live Demo
-Check out the live demo: [JobSphere Demo](https://your-jobsphere-demo-url.com)
-
-### Video Walkthrough
-<p align="center">
-  <a href="https://www.youtube.com/watch?v=your-video-id" target="_blank">
-    <img src="https://img.youtube.com/vi/your-video-id/maxresdefault.jpg" alt="JobSphere Video Demo" width="600"/>
-  </a>
-</p>
-
-Watch a complete [video demonstration](https://www.youtube.com/watch?v=your-video-id) of JobSphere in action, showing key features and user journeys.
 
 ## Screenshots
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/username/JobSphere/main/screenshots/home-page.png" alt="Home Page" width="45%"/>
+  <img src="[https://raw.githubusercontent.com/username/JobSphere/main/screenshots/home-page.png](https://drive.google.com/file/d/14YYvuI_WppsCCArhWjpuhvsz41wIhW5s/view?usp=sharing)" alt="Home Page" width="45%"/>
   &nbsp;&nbsp;
   <img src="https://raw.githubusercontent.com/username/JobSphere/main/screenshots/job-listings.png" alt="Job Listings" width="45%"/>
   <br/><br/>
@@ -123,88 +110,12 @@ Watch a complete [video demonstration](https://www.youtube.com/watch?v=your-vide
    
    Navigate to `http://localhost:8000` in your browser
 
-### Default Login Credentials
 
-**Admin/Employer:**
-- Email: admin@example.com
-- Password: password
-
-**Job Seeker:**
-- Email: user@example.com
-- Password: password
-
-## Deployment
-
-### Render
-
-1. Sign up for a [Render](https://render.com) account
-2. Create a new Web Service and connect to your GitHub repository
-3. Select the "PHP" environment
-4. Configure build command:
-   ```
-   composer install --optimize-autoloader --no-dev && npm install && npm run build && php artisan config:cache && php artisan route:cache
-   ```
-5. Configure start command:
-   ```
-   php artisan serve --host 0.0.0.0 --port $PORT
-   ```
-6. Add environment variables (APP_KEY, database credentials, etc.)
-7. Deploy the service
-
-### Railway
-
-1. Sign up for a [Railway](https://railway.app) account
-2. Create a new project from your GitHub repository
-3. Add a MySQL or PostgreSQL database service
-4. Configure environment variables in the "Variables" tab
-5. Deploy the service
-
-### Heroku
-
-1. Create a `Procfile` in your project root:
-   ```
-   web: vendor/bin/heroku-php-apache2 public/
-   ```
-2. Create a new Heroku app:
-   ```bash
-   heroku create your-jobsphere-app
-   ```
-3. Add a MySQL database (ClearDB):
-   ```bash
-   heroku addons:create cleardb:ignite
-   ```
-4. Configure environment variables:
-   ```bash
-   heroku config:set APP_KEY=your_app_key_here
-   heroku config:set APP_ENV=production
-   heroku config:set APP_DEBUG=false
-   heroku config:set DB_CONNECTION=mysql
-   ```
-5. Deploy your code:
-   ```bash
-   git push heroku main
-   ```
-6. Run migrations:
-   ```bash
-   heroku run php artisan migrate --force --seed
-   ```
-
-## Technologies
-
-- **Backend:** Laravel 10, PHP 8.1+
-- **Frontend:** Blade templates, Tailwind CSS, JavaScript
-- **Database:** MySQL/PostgreSQL
-- **Authentication:** Laravel Breeze
-- **Deployment:** Docker, Render, Railway, Heroku
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Acknowledgements
-
-- Project developed by [Your Name](https://github.com/username)
-- Special thanks to all contributors and testers
 
 ---
 
