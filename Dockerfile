@@ -31,11 +31,18 @@ COPY . /var/www
 RUN composer install
 RUN npm install && npm run build
 
+
+
 # Run as non-root user
 RUN chown -R www-data:www-data /var/www
 
 # Expose port
 EXPOSE 8000
 
-# Start server
+# Create an entrypoint script
+COPY --chown=www-data:www-data docker-entrypoint.sh /usr/local/bin/
+RUN chmod +x /usr/local/bin/docker-entrypoint.sh
+
+# Start server with entrypoint
+ENTRYPOINT ["docker-entrypoint.sh"]
 CMD php artisan serve --host=0.0.0.0 --port=8000 
