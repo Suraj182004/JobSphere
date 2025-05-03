@@ -57,3 +57,63 @@
    ```bash
    git clone https://github.com/username/JobSphere.git
    cd JobSphere
+2. **Install dependencies**
+   ```bash
+   composer install
+   npm install
+   ```
+
+3. **Set up environment file**
+   ```bash
+   cp .env.example .env
+   php artisan key:generate
+   ```
+
+4. **Configure database**
+   
+   Edit the `.env` file and set your database connection details:
+   ```
+   DB_CONNECTION=mysql
+   DB_HOST=127.0.0.1
+   DB_PORT=3306
+   DB_DATABASE=jobsphere
+   DB_USERNAME=root
+   DB_PASSWORD=
+   ```
+
+5. **Run migrations and seeders**
+   ```bash
+   php artisan migrate --seed
+   ```
+
+6. **Build assets**
+   ```bash
+   npm run build
+   ```
+
+7. **Start the development server**
+   ```bash
+   php artisan serve
+   ```
+
+8. **Access the application**
+   
+   Navigate to `http://localhost:8000` in your browser
+
+
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+
+---
+
+<p align="center">
+  Made with ❤️ by Your Name
+</p>
+"# JobSphere" 
+
+   
+
+
